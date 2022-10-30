@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    padding: 0 180px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+
+.navlink {
+    list-style-type: none;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.brand a {
+    font-weight: 500;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.text h2 {
+    font-size: 50px;
+}
+
+.text p {
+    font-weight: 350;
+    font-size: 25px;
+}
+
+.main-left img{
+    background: red;
+}
+
+.main-right form input{
+    display: block;
+    width: 432px;
+    height: 42px;
+    font-size: 20px;
+    margin-bottom: 20px; 
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    color: #7E7C7C;
+}
+
+.main-right form input[type="submit"] {
+    background-color: rgba(108,99,255,0.5);
+    color: white;
+}
+
+.instant-login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    margin: 0 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-login {
+    background: #4267B2;
+}
+
+.facebook-login .fa-brands{
+    color: #fff;
+}
+
+.google-login, .apple-login {
+    border: 0.05px solid black;
+}
+
+.fa-brands {
+    color: black;
+}
+
+.sidebar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding-top: 40px;
+    height: 100vh;
+    overflow-y: scroll;
+    background: rgba(108,99,255,0.5);
+    color: white;
+}
+
+.sidebar h3 {
+    font-size: 25px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.show-recipes {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    float: right;
+}
+
+.box {
+    width: 15rem;
+    border: 1px solid lightgray;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: black;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.header h4 {
+    font-weight: 500;
+}
+
+.ingredients {
+    padding: 10px;
+}
+
+.ingredients ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredients ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    background: lightgray;
+    border-radius: 5px;
+    font-weight: 400;
+    color: gray;
+}
+
+.ingredients-list {
+    margin-top: 40px;
+}
+
+.searchbox input {
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+.searchbox-recipes input {
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+.show-recipes {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.recipe-box {
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 20px 15px;
+}
+
+.recipe-description {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.recipe-img {
+    width: 10rem;
+    height: 100%;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.source {
+    font-size: 10px;
+}
+
+.numberOfIngredients {
+    font-size: 15px;
+}
