@@ -9,7 +9,7 @@ export default function Login() {
             {/*navbar*/}
             <nav className="navbar">
                 <ul className="navlinks">
-                    <li className="navlink brand"><Link to="/">CookBook</Link></li>
+                    <li className="navlink brand" font-size="50px"><Link to="/">CookBook</Link></li>
                     <li className="navlink"><a href="/">Home</a></li>
                     <li className="navlink"><a href="/">About</a></li>
                     <li className="navlink"><a href="/">Contact Us</a></li>
@@ -27,7 +27,7 @@ export default function Login() {
                 </div>
                 <div className="main-right">
                     <form>
-                        <input type="text" placeholder="Email" value={email}/>
+                        <input type="text" placeholder="Email"/>
                         <input type="password" placeholder="Password"/>
                         <input type="submit" value="Continue" />
                         <p style={{textAlign: "center", marginBottom: '20px'}}>or continue with</p>
