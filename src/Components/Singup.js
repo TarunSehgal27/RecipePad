@@ -9,7 +9,7 @@ export default function Signup() {
             {/*navbar*/}
             <nav className="navbar">
                 <ul className="navlinks">
-                    <li className="navlink brand"><a href="/">CookBook</a></li>
+                    <li className="navlink brand"><a href="/">RecipePad</a></li>
                     <li className="navlink"><a href="/">Home</a></li>
                     <li className="navlink"><a href="/">About</a></li>
                     <li className="navlink"><a href="/">Contact Us</a></li>

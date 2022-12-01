@@ -9,7 +9,7 @@ export default function Login() {
             {/*navbar*/}
             <nav className="navbar">
                 <ul className="navlinks">
-                    <li className="navlink brand" font-size="50px"><Link to="/">CookBook</Link></li>
+                    <li className="navlink brand" font-size="50px"><Link to="/">RecipePad</Link></li>
                     <li className="navlink"><a href="/">Home</a></li>
                     <li className="navlink"><a href="/">About</a></li>
                     <li className="navlink"><a href="/">Contact Us</a></li>

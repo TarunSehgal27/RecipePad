@@ -1,5 +1,6 @@
 
 import React from "react";
+import ShowRecipes from './ShowRecipes';
 
 export default function Recipe() {
     return (
@@ -9,10 +10,11 @@ export default function Recipe() {
             </div>
             <div className="recipe-description">
                 <div className="heading">
+                    <h6 className='id'>Unique ID : 12</h6>
                     <h3 className="title">Scramble Eggs in the Microwave</h3>
                     <p className="source">incredibleegg.org</p>
                 </div>
-                <p className="numberOfIngredients">You have all 2 ingredients.</p>
+                <p className="numberOfIngredients">You have all 8 ingredients.</p>
             </div>
         </div>
     );

@@ -32,12 +32,15 @@
 .navlink a {
     text-decoration: none;
     color: black;
-    font-weight: 100;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
 }
 
 .brand a {
-    font-weight: 500;
+    font-weight: bold;
     font-size:180%;
+    font-family: cursive;
 }
 
 .main {
@@ -120,6 +123,7 @@
     overflow-y: scroll;
     background: rgba(108,99,255,0.5);
     color: white;
+    transition: 0.3s;
 }
 
 .sidebar h3 {
