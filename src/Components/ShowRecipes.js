@@ -9,12 +9,12 @@ export default function ShowRecipes() {
     useEffect(() =>{
       async function callApi(){
         const apiResult = await axios.get('http://127.0.0.1:9000/recipesWithSearch')
-        console.log(apiResult)
-        setapiData(apiResult.data)
+        
+        setapiData(apiResult.data.recipes)
     }
     callApi()
     console.log(apiData)
-      },[apiData])
+      },[])
     return (
         <div>
             <h1>RecipePad</h1>
@@ -22,24 +22,8 @@ export default function ShowRecipes() {
             <div className="searchbox-recipes">
                 <input type='search' placeholder='Search'/>
             </div>
-            
-            
-            <div className='recipes'>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-                <Recipe/>
-            </div>
+            {apiData.map(recipe=> console.log(recipe))
+            }
         </div>
     );
 }
